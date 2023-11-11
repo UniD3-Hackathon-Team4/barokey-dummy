@@ -30,6 +30,9 @@ def headlines_keyword(keyword: str):
 
 @app.get("/crowds")
 def crowds():
-    with open("./../data/crowds/example.json") as f:
-        s = json.load(f)
+    s = {
+        "result" : "SUCCESS",
+        "errorMsg" : "",
+        "crowds" : crowd.get_crowd_info()
+    }
     return JSONResponse(s)

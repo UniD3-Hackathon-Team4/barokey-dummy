@@ -6,3 +6,4 @@ webdriver-manager
 lxml
 requests
 BeautifulSoup4
+pandas
