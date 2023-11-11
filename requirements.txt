@@ -3,3 +3,5 @@ uvicorn
 gunicorn
 selenium
 webdriver-manager
+lxml
+requests
