@@ -1,5 +1,6 @@
 import json
 import classes.news as news
+import classes.crowd as crowd
 from fastapi import FastAPI, Request
 from starlette.responses import JSONResponse
 
@@ -14,7 +15,7 @@ def headlines():
     s = {
         "result" : "SUCCESS",
         "errorMsg" : "",
-        "headlines" : news.get_headlines()
+        "headlines" : news.get_headlines_v2()
     }
     return JSONResponse(s)
 
