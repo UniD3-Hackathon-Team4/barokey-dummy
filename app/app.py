@@ -1,5 +1,5 @@
 import json
-import classes.news
+import classes.news as news
 from fastapi import FastAPI, Request
 from starlette.responses import JSONResponse
 
@@ -11,8 +11,11 @@ def ping():
 
 @app.get("/headlines")
 def headlines():
-    with open("./../data/headlines/example.json") as f:
-        s = json.load(f)
+    s = {
+        "result" : "SUCCESS",
+        "errorMsg" : "",
+        "headlines" : news.get_headlines()
+    }
     return JSONResponse(s)
 
 @app.get("/crowds")
