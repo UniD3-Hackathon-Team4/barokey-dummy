@@ -34,11 +34,11 @@ def get_headlines():
         
         driver.get(url)
         
-        time.sleep(1)
+        time.sleep(0.5)
 
         articles = driver.find_elements(By.CSS_SELECTOR, '#main_content > div > div._persist > div.section_headline > ul > li')
 
-        for article in articles:
+        for article in articles[:5]:
             tag = article.find_elements(By.CSS_SELECTOR, 'div.sh_text')[0]
 
             a_tag = tag.find_elements(By.CSS_SELECTOR, 'a')[0]
