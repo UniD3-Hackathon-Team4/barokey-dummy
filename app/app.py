@@ -19,6 +19,15 @@ def headlines():
     }
     return JSONResponse(s)
 
+@app.get("/headlines_keyword")
+def headlines_keyword(keyword: str):
+    s = {
+        "result" : "SUCCESS",
+        "errorMsg" : "",
+        "headlines" : news.get_headlines_v2_keyword(keyword)
+    }
+    return JSONResponse(s)
+
 @app.get("/crowds")
 def crowds():
     with open("./../data/crowds/example.json") as f:

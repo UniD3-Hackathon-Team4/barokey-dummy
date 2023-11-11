@@ -6,6 +6,11 @@ import time
 import random
 import requests
 
+headers = {
+    "X-Naver-Client-Id": "SF21kWPUHuGmay0KHcJw",
+    "X-Naver-Client-Secret": "y_7HlIIrpc"
+}
+
 options = webdriver.ChromeOptions()
 options.add_argument('headless')
 options.add_argument('no-sandbox')
@@ -90,26 +95,27 @@ def get_headlines_v2():
     headlines = []
     
     for keyword in word_list:
-        headers = {
-            "X-Naver-Client-Id": "SF21kWPUHuGmay0KHcJw",
-            "X-Naver-Client-Secret": "y_7HlIIrpc"
-        }
-
-        url = base_url.format(keyword = keyword)
-        
-        response = requests.get(url, headers = headers).json()
-        
-        headline = []
-        for item in response['items']:
-            headline.append({
-                "title" : bs(item["title"], 'lxml').text,
-                "type" : random.randint(-1, 4),
-                "summary" : bs(item["description"], 'lxml').text,
-                "link" : item["originallink"]
-            })
         headlines.append({
             "title" : keyword,
-            "articles" : headline
+            "ariticles" : get_headlines_v2_keyword(keyword)
         })
-        
+    
+    return headlines
+
+def get_headlines_v2_keyword(keyword):
+    base_url = "https://openapi.naver.com/v1/search/news.json?query={keyword}&display=5&start=1&sort=sim"
+
+    url = base_url.format(keyword = keyword)
+
+    response = requests.get(url, headers = headers).json()
+
+    headlines = []
+    for item in response['items']:
+        headlines.append({
+            "title" : bs(item["title"], 'lxml').text,
+            "type" : random.randint(-1, 4),
+            "summary" : bs(item["description"], 'lxml').text,
+            "link" : item["originallink"]
+        })
+
     return headlines
