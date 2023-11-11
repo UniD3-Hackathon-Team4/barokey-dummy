@@ -1,0 +1,46 @@
+{
+    "result" : "SUCCESS",
+    "errorMsg" : "",
+    "crowds" : [
+        {
+            "region" : "용산구",
+            "data" : {
+                "subway" : 101,
+                "bus" : 1273,
+                "people" :122
+            }
+        },
+        {
+            "region" : "강동구",
+            "data" : {
+                "subway" : 101,
+                "bus" : 1273,
+                "people" :122 
+            }
+        },
+        {
+            "region" : "마포구",
+            "data" : {
+                "subway" : 101,
+                "bus" : 1273,
+                "people" :122 
+            }
+        },
+        {
+            "region" : "양천구",
+            "data" : {
+                "subway" : 101,
+                "bus" : 1273,
+                "people" :122 
+            }
+        },
+        {
+            "region" : "장안구",
+            "data" : {
+                "subway" : 101,
+                "bus" : 1273,
+                "people" :122 
+            }
+        }
+    ]
+}

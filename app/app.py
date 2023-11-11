@@ -1,4 +1,5 @@
 import json
+import classes.news
 from fastapi import FastAPI, Request
 from starlette.responses import JSONResponse
 
