@@ -13,3 +13,9 @@ def headlines():
     with open("./../data/headlines/example.json") as f:
         s = json.load(f)
     return JSONResponse(s)
+
+@app.get("/crowds")
+def crowds():
+    with open("./../data/crowds/example.json") as f:
+        s = json.load(f)
+    return JSONResponse(s)
