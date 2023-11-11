@@ -15,3 +15,7 @@ RUN apt-get -y update
 RUN apt-get install -y python-dev python python3 python3-pip python-pkg-resources python3-pkg-resources libtool software-properties-common nginx
 
 RUN pip3 install uvicorn fastapi gunicorn selenium
+
+COPY scripts/run.sh /etc/run.sh
+
+CMD /etc/run.sh
