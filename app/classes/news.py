@@ -97,7 +97,7 @@ def get_headlines_v2():
     for keyword in word_list:
         headlines.append({
             "title" : keyword,
-            "ariticles" : get_headlines_v2_keyword(keyword)
+            "articles" : get_headlines_v2_keyword(keyword)
         })
     
     return headlines
