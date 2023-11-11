@@ -1,0 +1,121 @@
+{
+    "result" : "SUCCESS",
+    "errorMsg" : "",
+    "headlines" : [
+        {
+            "title" : "UNI-D",
+            "articles" : [
+                {
+                    "title" : "UNI-D 성공리에 시작!!!",
+                    "type" : -1,
+                    "summary" : "23년 11월 11일, 위워크 서울스퀘어점에서 UNI-D 성공적으로 시작...",
+                    "link" : "https://naver.com"
+                },
+                {
+                    "title" : "UNI-D 성공리에 진행!!!",
+                    "type" : 2,
+                    "summary" : "23년 11월 11일, 위워크 서울스퀘어점에서 UNI-D 성공적으로 진행중...",
+                    "link" : "https://www.facebook.com/zuck/"
+                },
+                {
+                    "title" : "UNI-D 성공리에 마무리!!!",
+                    "type" : 4,
+                    "summary" : "23년 11월 12일, 위워크 서울스퀘어점에서 UNI-D 성공적으로 마무리...",
+                    "link" : "https://twitter.com/elonmusk"
+                }
+            ]
+        },
+        {
+            "title" : "팀 레오",
+            "articles" : [
+                {
+                    "title" : "팀 레오 금상, 획기적인 아이디어로 극찬",
+                    "type" : -1,
+                    "summary" : "지난 11월 10-11일에 개최된 UNI-D, 금상 팀 레오 ...",
+                    "link" : "https://blog.naver.com/uni-d/223227937903"
+                },
+                {
+                    "title" : "UNI-D 성공리에 시작!!!",
+                    "type" : -1,
+                    "summary" : "23년 11월 11일, 위워크 서울스퀘어점에서 UNI-D 성공적으로 시작...",
+                    "link" : "https://naver.com"
+                },
+                {
+                    "title" : "UNI-D 성공리에 시작!!!",
+                    "type" : -1,
+                    "summary" : "23년 11월 11일, 위워크 서울스퀘어점에서 UNI-D 성공적으로 시작...",
+                    "link" : "https://naver.com"
+                }
+            ]
+        },
+        {
+            "title" : "팀 레오",
+            "articles" : [
+                {
+                    "title" : "팀 레오 금상, 획기적인 아이디어로 극찬",
+                    "type" : -1,
+                    "summary" : "지난 11월 10-11일에 개최된 UNI-D, 금상 팀 레오 ...",
+                    "link" : "https://blog.naver.com/uni-d/223227937903"
+                },
+                {
+                    "title" : "UNI-D 성공리에 시작!!!",
+                    "type" : -1,
+                    "summary" : "23년 11월 11일, 위워크 서울스퀘어점에서 UNI-D 성공적으로 시작...",
+                    "link" : "https://naver.com"
+                },
+                {
+                    "title" : "UNI-D 성공리에 시작!!!",
+                    "type" : -1,
+                    "summary" : "23년 11월 11일, 위워크 서울스퀘어점에서 UNI-D 성공적으로 시작...",
+                    "link" : "https://naver.com"
+                }
+            ]
+        },
+        {
+            "title" : "팀 레오",
+            "articles" : [
+                {
+                    "title" : "팀 레오 금상, 획기적인 아이디어로 극찬",
+                    "type" : -1,
+                    "summary" : "지난 11월 10-11일에 개최된 UNI-D, 금상 팀 레오 ...",
+                    "link" : "https://blog.naver.com/uni-d/223227937903"
+                },
+                {
+                    "title" : "UNI-D 성공리에 시작!!!",
+                    "type" : -1,
+                    "summary" : "23년 11월 11일, 위워크 서울스퀘어점에서 UNI-D 성공적으로 시작...",
+                    "link" : "https://naver.com"
+                },
+                {
+                    "title" : "UNI-D 성공리에 시작!!!",
+                    "type" : -1,
+                    "summary" : "23년 11월 11일, 위워크 서울스퀘어점에서 UNI-D 성공적으로 시작...",
+                    "link" : "https://naver.com"
+                }
+            ]
+        },
+        {
+            "title" : "팀 레오",
+            "articles" : [
+                {
+                    "title" : "팀 레오 금상, 획기적인 아이디어로 극찬",
+                    "type" : -1,
+                    "summary" : "지난 11월 10-11일에 개최된 UNI-D, 금상 팀 레오 ...",
+                    "link" : "https://blog.naver.com/uni-d/223227937903"
+                },
+                {
+                    "title" : "UNI-D 성공리에 시작!!!",
+                    "type" : -1,
+                    "summary" : "23년 11월 11일, 위워크 서울스퀘어점에서 UNI-D 성공적으로 시작...",
+                    "link" : "https://naver.com"
+                },
+                {
+                    "title" : "UNI-D 성공리에 시작!!!",
+                    "type" : -1,
+                    "summary" : "23년 11월 11일, 위워크 서울스퀘어점에서 UNI-D 성공적으로 시작...",
+                    "link" : "https://naver.com"
+                }
+            ]
+        }
+    ]
+}
